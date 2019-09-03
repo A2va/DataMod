@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "tryashtar.extended_pistons:.meta/on_entered_world"
+  }
+}

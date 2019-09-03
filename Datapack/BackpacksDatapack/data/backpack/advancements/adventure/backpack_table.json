@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:dropper",
+	    "nbt":"{CustomModelData:9161}"
+    },
+    "title": {
+      "translate": "advancements.backpacks.backpack_table.title"
+    },
+    "description": {
+      "translate": "advancements.backpacks.backpack_table.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+	"criteria": {
+        "have_backpack_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"nbt":"{BlockEntityTag:{Lock:\"Backpack Table\"}}"
+                    }
+                ]
+            }
+        }
+    },
+	"rewards": {
+		"experience": 10
+	},
+	"parent":"backpack:adventure/install_backpacks"
+}

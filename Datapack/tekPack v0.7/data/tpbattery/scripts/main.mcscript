@@ -1,0 +1,26 @@
+#file: ./main
+asat(@e[tag=tpBattery]){
+  if(@p[distance=..4]){
+    // break event
+    if("block ~ ~ ~ air"){
+      /tag @s remove tpCableConnector
+      positioned('^ ^ ^1'),asat(@e[tag=tpCable,distance=..0.8]){
+        /function tpcables:update
+      }
+      positioned('^ ^ ^-1'),asat(@e[tag=tpCable,distance=..0.8]){
+        /function tpcables:update
+      }
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:stone_hoe",tag:{battDisplay:1b}}}]
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:dropper"}}]
+      /summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:firework_rocket",Count:1,tag:{CustomModelData:3390003,isTekPack:1,HideFlags:6,display:{Name:"{\"text\":\"Battery\",\"italic\":false,\"color\":\"green\"}"},Fireworks:{}}}}
+
+      /kill @s
+    }
+  }
+    /function tpbattery:powered
+    /function tpbattery:batmain
+}
+
+asat(@e[type=item,nbt={Item:{id:"minecraft:stone_hoe",tag:{Unbreakable:1b,battDisplay:1b}}}]),if(@e[tag=tpBattery,distance=..1.4]){
+  /kill @s
+}

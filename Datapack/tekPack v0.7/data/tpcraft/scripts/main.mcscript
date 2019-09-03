@@ -1,0 +1,21 @@
+#file: ./main
+asat(@e[tag=tpCrafter]){
+  if(@p[distance=..4]){
+    // break event
+    if("block ~ ~ ~ air"){
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:stone_hoe",tag:{display:{Name:"{\"text\":\"\"}"},HideFlags:6}}}]
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:chest"}}]
+      /summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:firework_rocket",Count:1,tag:{CustomModelData:3390001,isTekPack:1,HideFlags:6,display:{Name:"{\"text\":\"Technical Crafting Table\",\"italic\":false,\"color\":\"dark_purple\"}"},Fireworks:{}}}}
+      /kill @s
+    }
+
+    /function tpcraft:chestmain
+  }
+}
+
+/execute as @a[nbt={Inventory:[{id:"minecraft:knowledge_book"}]}] run tag @s add tpCraftBlock
+asat(@a[tag=tpCraftBlock]){
+  /clear @s knowledge_book 1
+  /give @s firework_rocket{CustomModelData:3390001,isTekPack:1,HideFlags:6,display:{Name:"{\"text\":\"Technical Crafting Table\",\"italic\":false,\"color\":\"dark_purple\"}"},Fireworks:{}}
+  /tag @s remove tpCraftBlock
+}

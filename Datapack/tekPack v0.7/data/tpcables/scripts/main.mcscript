@@ -1,0 +1,39 @@
+
+#file: ./main
+// here goes your main content
+// executes 20 times a second
+# 1/2 sec Clock
+if("score #t tpTimer matches 2.."){
+  /function tpcables:slow_clock
+}
+# Break Event
+asat(@e[tag=tpCable]),if("block ~ ~ ~ air"){
+  /summon armor_stand ~ ~ ~ {Tags: [tpCableTemp],Invisible:1,Marker:1,NoGravity:1}
+  /kill @e[type=item,distance=..0.5,limit=1,sort=nearest]
+  /summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{},CustomModelData:3390002,isTekPack:1,HideFlags:6,display:{Name:"{\"text\":\"Cable\",\"italic\":false,\"color\":\"dark_purple\"}",Lore:["§aTransfers energy"]}}}}
+  /kill @s
+}
+
+asat(@e[tag=tpCableTemp]){
+  positioned('~1 ~ ~'),asat(@e[tag=tpCable,distance=..0.8]){
+    /function tpcables:update
+  }
+  positioned('~-1 ~ ~'),asat(@e[tag=tpCable,distance=..0.8]){
+    /function tpcables:update
+  }
+  positioned('~ ~1 ~'),asat(@e[tag=tpCable,distance=..0.8]){
+    /function tpcables:update
+  }
+  positioned('~ ~-1 ~'),asat(@e[tag=tpCable,distance=..0.8]){
+    /function tpcables:update
+  }
+  positioned('~ ~ ~-1'),asat(@e[tag=tpCable,distance=..0.8]){
+    /function tpcables:update
+  }
+  positioned('~ ~ ~1'),asat(@e[tag=tpCable,distance=..0.8]){
+    /function tpcables:update
+  }
+  /kill @s
+}
+#remove !!!!
+#/scoreboard players reset @a tpClick

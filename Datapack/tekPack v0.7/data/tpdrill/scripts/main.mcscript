@@ -1,0 +1,26 @@
+#file: ./main
+asat(@e[tag=tpDrill]){
+    // break event
+    if("block ~ ~ ~ air","block ~ ~-1 ~ air"){
+      /tag @s add tpBroken
+    }
+    if(@s[tag=tpBroken]){
+      /tag @s remove tpCableConnector
+      asat(@e[tag=tpCable,distance=..1.1]){
+        /function tpcables:update
+      }
+      /execute unless block ~ ~-1 ~ #tpdrill:undestroy run fill ~ ~1 ~ ~ ~-1 ~ air destroy
+      /summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:firework_rocket",Count:1,tag:{CustomModelData:3390011,isTekPack:1,HideFlags:6,display:{Name:"{\"text\":\"Drill\",\"italic\":false,\"color\":\"dark_purple\"}"},Fireworks:{}}}}
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:stone_brick_stairs"}}]
+      /execute positioned ~ ~-1 ~ run kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:end_rod"}}]
+      /execute positioned ~-0.5 ~ ~-0.5 run kill @e[tag=tpDrillPipe,dx=1,dz=1,y=0,dy=256]
+      /kill @s
+      /tag @s remove tpBroken
+    }
+    /scoreboard players add @s tpTimer 1
+    /function tpdrill:powered
+    /function tpdrill:drillmain
+    if("score @s tpTimer matches 40.."){
+        /scoreboard players reset @s tpTimer
+    }
+}

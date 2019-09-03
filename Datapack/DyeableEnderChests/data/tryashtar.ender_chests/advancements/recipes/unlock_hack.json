@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tryashtar.ender_chests:chest_station"
+      }
+    }
+  },
+  "rewards": {
+    "function": "tryashtar.ender_chests:.meta/temporary_hack"
+  }
+}

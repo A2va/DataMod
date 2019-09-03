@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:wooden_sword",
+	    "nbt":"{CustomModelData:9166}"
+    },
+    "title": {
+      "translate": "advancements.backpacks.ender_backpack.title"
+    },
+    "description": {
+      "translate": "advancements.backpacks.ender_backpack.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+	"criteria": {
+        "have_dyed_backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"nbt":"{item_tags:[\"ender_backpack\"]}"
+                    }
+                ]
+            }
+        }
+    },
+	"rewards": {
+		"experience": 10
+	},
+	"parent":"backpack:adventure/backpack"
+}

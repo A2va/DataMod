@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:dropper",
+	    "nbt":"{CustomModelData:9161}"
+    },
+    "title": {
+      "translate": "advancements.backpacks.install_backpacks.title"
+    },
+    "description": {
+      "translate": "advancements.backpacks.install_backpacks.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+    "criteria": {
+        "always": {
+            "trigger": "minecraft:tick"
+        }
+    },
+	"rewards": {
+		"function": "backpack:message"
+	},
+	"parent":"minecraft:adventure/root"
+}

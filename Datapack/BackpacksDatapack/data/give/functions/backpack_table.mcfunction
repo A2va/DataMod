@@ -1,0 +1,1 @@
+give @s minecraft:dropper{CustomModelData:9161,display:{Name:"{\"translate\":\"block.backpacks.backpack_table\",\"italic\":false}"},BlockEntityTag:{Lock:"Backpack Table"}}

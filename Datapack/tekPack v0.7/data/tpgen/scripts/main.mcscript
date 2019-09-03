@@ -1,0 +1,16 @@
+#file: ./main
+asat(@e[tag=tpGenerator]),positioned('~ ~-1 ~'){
+    // break event
+    if("block ~ ~ ~ air"){
+      /tag @s remove tpCableConnector
+      asat(@e[tag=tpCable,distance=..1.1]){
+        /function tpcables:update
+      }
+      /summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:firework_rocket",Count:1,tag:{CustomModelData:3390004,isTekPack:1,HideFlags:6,display:{Name:"{\"text\":\"Generator\",\"italic\":false,\"color\":\"green\"}"},Fireworks:{}}}}
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:iron_pickaxe",tag:{CustomModelData:3390002}}}]
+      /kill @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:furnace"}}]
+      /kill @s
+    }
+    /function tpgen:powered
+    /function tpgen:genmain
+}

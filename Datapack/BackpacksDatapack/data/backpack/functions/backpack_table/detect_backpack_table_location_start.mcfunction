@@ -1,0 +1,20 @@
+#Triggers the detect location function in different positions
+function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~1 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~2 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~3 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~4 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~5 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~6 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~7 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~8 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~9 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-1 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-2 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-3 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-4 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-5 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-6 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-7 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-8 ~ run function backpack:backpack_table/detect_backpack_table_location_end
+execute positioned ~ ~-9 ~ run function backpack:backpack_table/detect_backpack_table_location_end

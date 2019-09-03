@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:wooden_sword",
+	    "nbt":"{CustomModelData:9161}"
+    },
+    "title": {
+      "translate": "advancements.backpacks.backpack.title"
+    },
+    "description": {
+      "translate": "advancements.backpacks.backpack.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+	"criteria": {
+        "have_backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"nbt":"{item_tags:[\"backpack\"]}"
+                    }
+                ]
+            }
+        },
+		"have_ender_backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"nbt":"{item_tags:[\"ender_backpack\"]}"
+                    }
+                ]
+            }
+        }
+    },
+        "requirements": [
+            [
+                "have_backpack",
+                "have_ender_backpack"
+            ]
+        ],
+	"rewards": {
+		"experience": 10
+	},
+	"parent":"backpack:adventure/backpack_table"
+}

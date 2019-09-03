@@ -1,0 +1,3 @@
+#Summons a minecart and gives it the actual ID
+summon minecraft:armor_stand ~ 1 ~ {ShowArms:1b,HandItems:[{id:"minecraft:paper",Count:1b,tag:{Items:[{}]}},{}],Marker:1b,Invisible:1b,NoGravity:1b,Small:1b,PersistenceRequired:1,Tags:["backpack_inventory"],CustomName:"{\"translate\":\"item.backpacks.backpack\"}"}
+execute as @e[tag=backpack_inventory] unless score @s Chests_ID matches 1.. run scoreboard players operation @s Chests_ID = #Max_ID_Value Chests_ID

@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "iii",
+        "___",
+        "/ /"
+    ],
+    "key": {
+        "_": {
+            "tag": "backpack:wooden_slabs"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "i": {
+            "item": "minecraft:red_carpet"
+        }
+    },
+    "result": {
+        "item": "minecraft:jigsaw",
+        "count": 1
+    },
+    "group": "backpack_table"
+}
