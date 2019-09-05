@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 4,
+    "description": "§fBackpacks By Javier107 And TheNuclearNexus"
+  },
+  "language": {
+    "en_us":{
+	  "name": "English",
+	  "region": "United States",
+	  "bidirectional": false
+	}
+  }
+}

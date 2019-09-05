@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Yer Back-Chest",
+  "item.backpacks.ender_backpack": "Teleporting Back-Chest",
+#Lore
+  "lore.backpacks.backpack_line_1": "Holding it in",
+  "lore.backpacks.backpack_line_2": "yer gripper, look",
+  "lore.backpacks.backpack_line_3": "down and right-",
+  "lore.backpacks.backpack_line_4": "click to open it.",
+  "lore.backpacks.ender_backpack_line_1": "This back-chest",
+  "lore.backpacks.ender_backpack_line_2": "works like an",
+  "lore.backpacks.ender_backpack_line_3": "Ender Chest",
+#Advancements
+  "advancements.backpacks.backpack.title": "Too many loots!",
+  "advancements.backpacks.backpack.description": "Craft yerself back-chest and think about the new ways to store booty.",
+  "advancements.backpacks.colored_backpack.title": "A bright world!",
+  "advancements.backpacks.colored_backpack.description": "stain a back-chest.",
+  "advancements.backpacks.ender_backpack.title": "Personal back-chest!",
+  "advancements.backpacks.ender_backpack.description": "Craft a Teleporting Back-Chest.",
+  "advancements.backpacks.backpack_table.title": "The start of back hurts.",
+  "advancements.backpacks.backpack_table.description": "Craft a Back-Chest Table.",
+  "advancements.backpacks.install_backpacks.title": "Back-Chest!",
+  "advancements.backpacks.install_backpacks.description": "Install Backpacks Datapack. You'll need it on your quest",
+#Blocks
+  "block.minecraft.jigsaw": "§rBack-Chest Table",
+  "block.backpacks.backpack_table": "Back-Chest Table"
+}

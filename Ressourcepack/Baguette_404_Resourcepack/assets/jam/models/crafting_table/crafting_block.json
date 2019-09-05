@@ -1,0 +1,28 @@
+{
+	"parent": "block/block",
+    "textures": {
+        "0": "jam:crafting_table/block_top",
+        "1": "jam:crafting_table/block_face",
+        "particle": "jam:crafting_table/block_top"
+    },
+    "elements": [
+        {
+            "from": [-0.1, -0.1, -0.1],
+            "to": [16.1, 16.1, 16.1],
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+                "down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+            }
+        }
+    ],
+	"display": {
+		"head": {
+			"translation": [0, -30.2, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	}
+}

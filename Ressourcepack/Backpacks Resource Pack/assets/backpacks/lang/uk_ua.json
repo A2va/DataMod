@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Рюкзак",
+  "item.backpacks.ender_backpack": "Ендер Рюкзак",
+#Lore
+  "lore.backpacks.backpack_line_1": "Тримайте його в",
+  "lore.backpacks.backpack_line_2": "своїй руці, а потім гляньте",
+  "lore.backpacks.backpack_line_3": "вниз і натисніть",
+  "lore.backpacks.backpack_line_4": "праву кнопку миші щоб відкрити.",
+  "lore.backpacks.ender_backpack_line_1": "Цей рюкзак",
+  "lore.backpacks.ender_backpack_line_2": "працює ніби",
+  "lore.backpacks.ender_backpack_line_3": "Ендер Скриня",
+#Advancements
+  "advancements.backpacks.backpack.title": "Надто важко!",
+  "advancements.backpacks.backpack.description": "Скрафтіть новий рюкзак і подумайте над новими можливостями.",
+  "advancements.backpacks.colored_backpack.title": "Кольоровий світ!",
+  "advancements.backpacks.colored_backpack.description": "Пофарбуйте рюкзак.",
+  "advancements.backpacks.ender_backpack.title": "Особистий рюкзак!",
+  "advancements.backpacks.ender_backpack.description": "Скрафтіть Ендер Рюкзак.",
+  "advancements.backpacks.backpack_table.title": "Біль в спині починається.",
+  "advancements.backpacks.backpack_table.description": "Скрафтіть Стіл для Рюкзаків.",
+  "advancements.backpacks.install_backpacks.title": "Рюкзаки!",
+  "advancements.backpacks.install_backpacks.description": "Встановіть пакет данних 'Рюкзаки'. Він знадобиться вам в ваших пригодах",
+#Blocks
+  "block.minecraft.jigsaw": "§rСтіл для Рюкзаків",
+  "block.backpacks.backpack_table": "Стіл для Рюкзаків"
+}

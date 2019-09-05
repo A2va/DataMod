@@ -1,0 +1,27 @@
+{
+#Noms d'Items
+  "item.backpacks.backpack": "Sac à Dos",
+  "item.backpacks.ender_backpack": "Sac de l'Ender",
+#Description
+  "lore.backpacks.backpack_line_1": "En le tenant dans",
+  "lore.backpacks.backpack_line_2": "votre main, regardez en",
+  "lore.backpacks.backpack_line_3": "haut et en bas puis",
+  "lore.backpacks.backpack_line_4": "cliquez pour l'ouvrir",
+  "lore.backpacks.ender_backpack_line_1": "Ce Sac marche",
+  "lore.backpacks.ender_backpack_line_2": "comme un Coffre",
+  "lore.backpacks.ender_backpack_line_3": "de l'Ender",
+#Avancements
+  "advancements.backpacks.backpack.title": "Trop lourd!",
+  "advancements.backpacks.backpack.description": "Créez un Sac à Dos et pensez à toutes les possibilités.",
+  "advancements.backpacks.colored_backpack.title": "Un monde plein de couleur!",
+  "advancements.backpacks.colored_backpack.description": "Teignez un Sac à Dos.",
+  "advancements.backpacks.ender_backpack.title": "Sac à Dos personnel!",
+  "advancements.backpacks.ender_backpack.description": "Créez un Sac de l'Ender.",
+  "advancements.backpacks.backpack_table.title": "Le début des mals de dos.",
+  "advancements.backpacks.backpack_table.description": "Créez une Table de Sac.",
+  "advancements.backpacks.install_backpacks.title": "Backpacks!",
+  "advancements.backpacks.install_backpacks.description": "Installez le datapack Backpacks. Vous en aurez besoin pour votre aventure",
+#Blocs
+  "block.minecraft.jigsaw": "§rTable à Sac",
+  "block.backpacks.backpack_table": "Table à Sac"
+}

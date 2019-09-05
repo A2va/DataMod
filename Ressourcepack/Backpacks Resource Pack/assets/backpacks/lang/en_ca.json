@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Knapsack",
+  "item.backpacks.ender_backpack": "Ender Knapsack",
+#Lore
+  "lore.backpacks.backpack_line_1": "Holding it in",
+  "lore.backpacks.backpack_line_2": "your hand, look",
+  "lore.backpacks.backpack_line_3": "downward and right-",
+  "lore.backpacks.backpack_line_4": "click to open it.",
+  "lore.backpacks.ender_backpack_line_1": "This knapsack",
+  "lore.backpacks.ender_backpack_line_2": "works like an",
+  "lore.backpacks.ender_backpack_line_3": "Ender Chest",
+#Advancements
+  "advancements.backpacks.backpack.title": "Too heavy!",
+  "advancements.backpacks.backpack.description": "Craft a knapsack and think about the new possibilities.",
+  "advancements.backpacks.colored_backpack.title": "A colourful world!",
+  "advancements.backpacks.colored_backpack.description": "Colour a knapsack.",
+  "advancements.backpacks.ender_backpack.title": "Personal knapsack!",
+  "advancements.backpacks.ender_backpack.description": "Craft a Ender Knapsack.",
+  "advancements.backpacks.backpack_table.title": "The beginning of back pains.",
+  "advancements.backpacks.backpack_table.description": "Craft a Knapsack Table.",
+  "advancements.backpacks.install_backpacks.title": "Knapsack!",
+  "advancements.backpacks.install_backpacks.description": "Install Backpacks Datapack. You'll need it on your quest",
+#Blocks
+  "block.minecraft.jigsaw": "§rKnapsack Table",
+  "block.backpacks.backpack_table": "Knapsack Table"
+}

@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"gui": "tekpack/furnace_gui_off"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 18, 0],
+			"rotation": {"angle": 0, "axis": "z", "origin": [16, 16, 16]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#gui"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 0, 0],
+			"scale": [1.2, 1.1, 1],
+			"translation": [0, -1, 0]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -10.5]
+		},
+		"ground": {
+			"scale": [0.001, 0.001, 1]
+		}
+	}
+}

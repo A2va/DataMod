@@ -1,0 +1,31 @@
+{
+  "levelup.change_level": { "category": "neutral", "sounds": [{ "name": "levelup/change_level", "stream": true}]},
+  "levelup.change_level_master": { "category": "neutral", "sounds": [{ "name": "levelup/change_level_master", "stream": true}]},
+  "spell.magic_wall": { "category": "neutral", "sounds": [{ "name": "spell/magic_wall", "stream": true}]},
+  "misc.wand": { "category": "neutral", "sounds": [{ "name": "misc/wand1", "stream":true, "name": "misc/wand2", "stream":true, "name": "misc/wand3", "stream": true }]},
+
+  "portals.travel": { "category": "neutral", "sounds": [{ "name": "portals/travel", "stream": true}]},
+  "portals.open": { "category": "neutral", "sounds": [{ "name": "portals/open", "stream": true}]},
+  "shop.coins": { "category": "neutral", "sounds": [{ "name": "shop/coins", "stream": true}]},
+
+  "chest_open.common": { "category": "neutral", "sounds": [{ "name": "chest/common", "stream": true}]},
+  "chest_open.rare": { "category": "neutral", "sounds": [{ "name": "chest/rare", "stream": true}]},
+  "chest_open.epic": { "category": "neutral", "sounds": [{ "name": "chest/epic", "stream": true}]},
+  "chest_open.legendary": { "category": "neutral", "sounds": [{ "name": "chest/legendary", "stream": true}]},
+
+  "misc.healing_set": { "category": "neutral", "sounds": [{ "name": "misc/healing_set", "stream": true}]},
+  "misc.pickup": { "category": "neutral", "sounds": [{ "name": "misc/pickup", "stream": true}]},
+  "misc.lost_focus": { "category": "neutral", "sounds": [{ "name": "misc/lost_focus", "stream": true}]},
+  "misc.healing_spawn": { "category": "neutral", "sounds": [{ "name": "misc/healing_spawn", "stream": true}]},
+  "misc.heal": { "category": "neutral", "sounds": [{ "name": "misc/heal", "stream": true}]},
+  "misc.dust": { "category": "neutral", "sounds": [{ "name": "misc/dust", "stream": true}]},
+  "misc.holy": { "category": "neutral", "sounds": [{ "name": "misc/holycloak", "stream": true}]},
+  "misc.magic": { "category": "neutral", "sounds": [{ "name": "misc/magic_sound", "stream": true}]},
+  "misc.mysterious": { "category": "neutral", "sounds": [{ "name": "misc/mysterious", "stream": true}]},
+  "misc.repop": { "category": "neutral", "sounds": [{ "name": "misc/repop", "stream": true}]},
+  "misc.ouiiiiiiiiiiiiiii": { "category": "neutral", "sounds": [{ "name": "misc/ouiiiiiiiiiiiiiii", "stream": true}]},
+  "misc.honteux": { "category": "neutral", "sounds": [{ "name": "misc/honteux", "stream": true}]},
+
+  "quest.next_step": { "category": "neutral", "sounds": [{ "name": "quest/next_step", "stream": true}]},
+  "quest.complete": { "category": "neutral", "sounds": [{ "name": "quest/complete", "stream": true}]}
+}

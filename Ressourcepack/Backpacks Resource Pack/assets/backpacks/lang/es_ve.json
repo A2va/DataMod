@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Mochila",
+  "item.backpacks.ender_backpack": "Mochila Ender",
+#Lore
+  "lore.backpacks.backpack_line_1": "Sosteniéndola en",
+  "lore.backpacks.backpack_line_2": "tu mano, mira",
+  "lore.backpacks.backpack_line_3": "abajo y usa click",
+  "lore.backpacks.backpack_line_4": "derecho para abrirla.",
+  "lore.backpacks.ender_backpack_line_1": "Esta mochila",
+  "lore.backpacks.ender_backpack_line_2": "funciona como",
+  "lore.backpacks.ender_backpack_line_3": "un Cofre de Ender",
+#Advancements
+  "advancements.backpacks.backpack.title": "Muy Pesado!",
+  "advancements.backpacks.backpack.description": "Crea una mochila y piensa en las nuevas posibilidades.",
+  "advancements.backpacks.colored_backpack.title": "Un mundo colorido!",
+  "advancements.backpacks.colored_backpack.description": "Tiñe una mochila.",
+  "advancements.backpacks.ender_backpack.title": "Mochila personal!",
+  "advancements.backpacks.ender_backpack.description": "Crea una Mochila Ender.",
+  "advancements.backpacks.backpack_table.title": "El comienzo de las Mochilas.",
+  "advancements.backpacks.backpack_table.description": "Crea una Mesa Mochila.",
+  "advancements.backpacks.install_backpacks.title": "Mochilas!",
+  "advancements.backpacks.install_backpacks.description": "Instala el Datapack de Mochilas. lo necesitaras",
+#Blocks
+  "block.minecraft.jigsaw": "§rMesa Mochila",
+  "block.backpacks.backpack_table": "Mesa Mochila"
+}

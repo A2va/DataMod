@@ -1,0 +1,9 @@
+{
+  "item.armor.equip_generic": {
+    "category": "player",
+	"replace": true,
+    "sounds": [
+    ],
+    "subtitle": "definitiv kein sound! nope da ist nichts!"
+  }
+}

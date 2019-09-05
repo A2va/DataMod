@@ -1,0 +1,28 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/wooden_sword"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 9161}, "model": "backpacks:backpacks/backpack" },
+		{ "predicate": { "custom_model_data": 9162}, "model": "backpacks:backpacks/black_backpack" },
+		{ "predicate": { "custom_model_data": 9163}, "model": "backpacks:backpacks/blue_backpack" },
+		{ "predicate": { "custom_model_data": 9164}, "model": "backpacks:backpacks/brown_backpack" },
+		{ "predicate": { "custom_model_data": 9165}, "model": "backpacks:backpacks/cyan_backpack" },
+		{ "predicate": { "custom_model_data": 9166}, "model": "backpacks:backpacks/ender_backpack" },
+		{ "predicate": { "custom_model_data": 9167}, "model": "backpacks:backpacks/gray_backpack" },
+		{ "predicate": { "custom_model_data": 9168}, "model": "backpacks:backpacks/green_backpack" },
+		{ "predicate": { "custom_model_data": 9169}, "model": "backpacks:backpacks/light_blue_backpack" },
+		{ "predicate": { "custom_model_data": 91610}, "model": "backpacks:backpacks/light_gray_backpack" },
+		{ "predicate": { "custom_model_data": 91611}, "model": "backpacks:backpacks/lime_backpack" },
+		{ "predicate": { "custom_model_data": 91612}, "model": "backpacks:backpacks/magenta_backpack" },
+		{ "predicate": { "custom_model_data": 91613}, "model": "backpacks:backpacks/orange_backpack" },
+		{ "predicate": { "custom_model_data": 91614}, "model": "backpacks:backpacks/pink_backpack" },
+		{ "predicate": { "custom_model_data": 91615}, "model": "backpacks:backpacks/purple_backpack" },
+		{ "predicate": { "custom_model_data": 91616}, "model": "backpacks:backpacks/red_backpack" },
+		{ "predicate": { "custom_model_data": 91617}, "model": "backpacks:backpacks/white_backpack" },
+		{ "predicate": { "custom_model_data": 91618}, "model": "backpacks:backpacks/yellow_backpack" },
+		{ "predicate": { "custom_model_data": 91619}, "model": "backpacks:gui/backpack_table_gui" },
+		{ "predicate": { "custom_model_data": 91620}, "model": "backpacks:gui/empty_slot" }
+	]
+}

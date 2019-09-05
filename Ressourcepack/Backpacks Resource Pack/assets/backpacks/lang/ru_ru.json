@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Рюкзак",
+  "item.backpacks.ender_backpack": "Эндер Рюкзак",
+#Lore
+  "lore.backpacks.backpack_line_1": "Держите его",
+  "lore.backpacks.backpack_line_2": "в руке, затем смотрите",
+  "lore.backpacks.backpack_line_3": "вниз и нажимайте",
+  "lore.backpacks.backpack_line_4": "правую кнопку мыши чтобы открыть.",
+  "lore.backpacks.ender_backpack_line_1": "Этот рюкзак",
+  "lore.backpacks.ender_backpack_line_2": "работает как",
+  "lore.backpacks.ender_backpack_line_3": "Сундук Края",
+#Advancements
+  "advancements.backpacks.backpack.title": "Слишком тяжело!",
+  "advancements.backpacks.backpack.description": "Скрафтите новый рюкзак и задумайтесь о новых возможностях.",
+  "advancements.backpacks.colored_backpack.title": "Мир цветов!",
+  "advancements.backpacks.colored_backpack.description": "Покрасьте рюкзак.",
+  "advancements.backpacks.ender_backpack.title": "Личный рюкзак!",
+  "advancements.backpacks.ender_backpack.description": "Скрафтите Эндер Рюкзак.",
+  "advancements.backpacks.backpack_table.title": "Начало болей в спине.",
+  "advancements.backpacks.backpack_table.description": "Скрафтите стол для Рюкзаков.",
+  "advancements.backpacks.install_backpacks.title": "Рюкзаки!",
+  "advancements.backpacks.install_backpacks.description": "Установите пакет данных 'Рюкзаки'. Он понадобиться вам в ваших приключениях.",
+#Blocks
+  "block.minecraft.jigsaw": "§rСтол для Рюкзаков",
+  "block.backpacks.backpack_table": "Стол для Рюкзаков"
+}

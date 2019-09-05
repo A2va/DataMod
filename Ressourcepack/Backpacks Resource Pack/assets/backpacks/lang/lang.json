@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Backpack",
+  "item.backpacks.ender_backpack": "Ender Backpack",
+#Lore
+  "lore.backpacks.backpack_line_1": "Holding it in",
+  "lore.backpacks.backpack_line_2": "your hand, look",
+  "lore.backpacks.backpack_line_3": "down and right",
+  "lore.backpacks.backpack_line_4": "click to open it.",
+  "lore.backpacks.ender_backpack_line_1": "This backpack",
+  "lore.backpacks.ender_backpack_line_2": "works like an",
+  "lore.backpacks.ender_backpack_line_3": "Ender Chest",
+#Advancements
+  "advancements.backpacks.backpack.title": "Too heavy!",
+  "advancements.backpacks.backpack.description": "Craft a backpack and think about the new possibilities.",
+  "advancements.backpacks.colored_backpack.title": "A colorful world!",
+  "advancements.backpacks.colored_backpack.description": "Dye a backpack.",
+  "advancements.backpacks.ender_backpack.title": "Personal backpack!",
+  "advancements.backpacks.ender_backpack.description": "Craft a Ender Backpack.",
+  "advancements.backpacks.backpack_table.title": "The beginning of back pains.",
+  "advancements.backpacks.backpack_table.description": "Craft a Backpack Table.",
+  "advancements.backpacks.install_backpacks.title": "Backpacks!",
+  "advancements.backpacks.install_backpacks.description": "Install Backpacks Datapack. You'll need it on your adventure",
+#Blocks
+  "block.minecraft.jigsaw": "§rBackpack Table",
+  "block.backpacks.backpack_table": "Backpack Table"
+}

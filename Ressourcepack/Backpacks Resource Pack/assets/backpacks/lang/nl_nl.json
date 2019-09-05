@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Rugzak",
+  "item.backpacks.ender_backpack": "Ender Rugzak",
+#Lore
+  "lore.backpacks.backpack_line_1": "Terwijl je het in je",
+  "lore.backpacks.backpack_line_2": "hand houd, kijk naar",
+  "lore.backpacks.backpack_line_3": "beneden en click de rechter",
+  "lore.backpacks.backpack_line_4": "muisknop om te openen.",
+  "lore.backpacks.ender_backpack_line_1": "Deze rugzak",
+  "lore.backpacks.ender_backpack_line_2": "werkt als een",
+  "lore.backpacks.ender_backpack_line_3": "Ender Kist",
+#Advancements
+  "advancements.backpacks.backpack.title": "Te zwaar!",
+  "advancements.backpacks.backpack.description": "Maak een rugzak en denk aan de nieuwe mogenlijkheden.",
+  "advancements.backpacks.colored_backpack.title": "Een kleurrijke wereld!",
+  "advancements.backpacks.colored_backpack.description": "Kleur een rugzak",
+  "advancements.backpacks.ender_backpack.title": "Persoonlijke rugzak",
+  "advancements.backpacks.ender_backpack.description": "Maak een ender rugzak.",
+  "advancements.backpacks.backpack_table.title": "Het begin van de rugpijn.",
+  "advancements.backpacks.backpack_table.description": "Maak een rugzak tafel.",
+  "advancements.backpacks.install_backpacks.title": "Rugzakken!",
+  "advancements.backpacks.install_backpacks.description": "Installeer de rugzak datapack, je zult ze nodig hebben op je avontuur",
+#Blocks
+  "block.minecraft.jigsaw": "§rRugzak tafel",
+  "block.backpacks.backpack_table": "Rugzak tafel"
+}

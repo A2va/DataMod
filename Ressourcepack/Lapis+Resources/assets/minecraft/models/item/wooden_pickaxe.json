@@ -1,0 +1,24 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wooden_pickaxe"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1000}, "model": "tinkery:item/pickaxe/wood/_default"},
+        { "predicate": {"custom_model_data": 1001}, "model": "tinkery:item/pickaxe/wood/d"},
+        { "predicate": {"custom_model_data": 1002}, "model": "tinkery:item/pickaxe/wood/m"},
+        { "predicate": {"custom_model_data": 1003}, "model": "tinkery:item/pickaxe/wood/dm"},
+        { "predicate": {"custom_model_data": 1004}, "model": "tinkery:item/pickaxe/wood/s"},
+        { "predicate": {"custom_model_data": 1005}, "model": "tinkery:item/pickaxe/wood/ds"},
+        { "predicate": {"custom_model_data": 1006}, "model": "tinkery:item/pickaxe/wood/ms"},
+        { "predicate": {"custom_model_data": 1007}, "model": "tinkery:item/pickaxe/wood/dms"},
+		{ "predicate": { "custom_model_data": 1128 }, "model": "tinkery:item/hammer/wood/_default"},
+		{ "predicate": { "custom_model_data": 1129 }, "model": "tinkery:item/hammer/wood/d"},
+		{ "predicate": { "custom_model_data": 1130 }, "model": "tinkery:item/hammer/wood/m"},
+		{ "predicate": { "custom_model_data": 1131 }, "model": "tinkery:item/hammer/wood/dm"},
+		{ "predicate": { "custom_model_data": 1132 }, "model": "tinkery:item/hammer/wood/s"},
+		{ "predicate": { "custom_model_data": 1133 }, "model": "tinkery:item/hammer/wood/ds"},
+		{ "predicate": { "custom_model_data": 1134 }, "model": "tinkery:item/hammer/wood/ms"},
+		{ "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/wood/dms"}
+    ]
+}

@@ -1,0 +1,27 @@
+{
+#Items Name
+  "item.backpacks.backpack": "Plecak",
+  "item.backpacks.ender_backpack": "Plecak Kresu",
+#Lore
+  "lore.backpacks.backpack_line_1": "Trzymając go w ręce,",
+  "lore.backpacks.backpack_line_2": "popatrz w dół",
+  "lore.backpacks.backpack_line_3": "i naciśnji prawy przycisk",
+  "lore.backpacks.backpack_line_4": "żeby otworzyć.",
+  "lore.backpacks.ender_backpack_line_1": "Ten plecak",
+  "lore.backpacks.ender_backpack_line_2": "działa jak",
+  "lore.backpacks.ender_backpack_line_3": "Skrzynia Kresu",
+#Advancements
+  "advancements.backpacks.backpack.title": "Za ciężki!",
+  "advancements.backpacks.backpack.description": "Stwórz plecak. Pomyśl o nowych możliwościach!",
+  "advancements.backpacks.colored_backpack.title": "Kolorowy świat!",
+  "advancements.backpacks.colored_backpack.description": "Pomaluj plecak.",
+  "advancements.backpacks.ender_backpack.title": "Personalny plecak!",
+  "advancements.backpacks.ender_backpack.description": "Stwórz Plecak Kresu.",
+  "advancements.backpacks.backpack_table.title": "Początek bólu pleców.",
+  "advancements.backpacks.backpack_table.description": "Stwórz Stół do Plecaków.",
+  "advancements.backpacks.install_backpacks.title": "Plecaki!",
+  "advancements.backpacks.install_backpacks.description": "Zainstaluj The Backpack Datapack. Przyda ci się na twojej przygodzie",
+#Blocks
+  "block.minecraft.jigsaw": "§rStół do Plecaków",
+  "block.backpacks.backpack_table": "Stół do Plecaków"
+}

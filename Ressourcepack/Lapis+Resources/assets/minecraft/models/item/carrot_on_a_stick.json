@@ -1,0 +1,27 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+		{ "predicate": {"custom_model_data": 1},  "model": "jam:empty"},
+        { "predicate": {"custom_model_data": 2}, "model": "jam:ability/ability_flora"},
+        { "predicate": {"custom_model_data": 3}, "model": "jam:ability/ability_fire"},
+        { "predicate": {"custom_model_data": 4}, "model": "jam:ability/ability_dig"},
+        { "predicate": {"custom_model_data": 5}, "model": "jam:ability/ability_deforest"},
+        { "predicate": {"custom_model_data": 6}, "model": "jam:ability/ability_loot"},
+        { "predicate": {"custom_model_data": 7}, "model": "jam:ability/ability_midas"},
+        { "predicate": {"custom_model_data": 8}, "model": "jam:ability/ability_levitate"},
+        { "predicate": {"custom_model_data": 9}, "model": "jam:ability/ability_minexp"},
+        { "predicate": {"custom_model_data": 10}, "model": "jam:ability/ability_passage"},
+		{ "predicate": {"custom_model_data": 11}, "model": "jam:ability/ability_star"},
+		{ "predicate": {"custom_model_data": 12}, "model": "jam:ability/spirit"},
+		{ "predicate": {"custom_model_data": 20},  "model": "jam:crafting_table/crafting_gui_high"},
+        { "predicate": {"custom_model_data": 21},  "model": "jam:crafting_table/crafting_gui_low"},
+        { "predicate": {"custom_model_data": 50},  "model": "jam:magnet"},
+        { "predicate": {"custom_model_data": 51},  "model": "jam:mega_torch"},
+        { "predicate": {"custom_model_data": 52},  "model": "jam:teleport_mine"},
+        { "predicate": {"custom_model_data": 53},  "model": "jam:void_stone"},
+        { "predicate": {"custom_model_data": 150}, "model": "storage:item/wireless"}
+	]
+}

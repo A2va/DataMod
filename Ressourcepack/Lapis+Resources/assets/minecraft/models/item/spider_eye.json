@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/spider_eye"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 100}, "model": "quarry:item/battery"},
+        { "predicate": {"custom_model_data": 101}, "model": "quarry:item/battery"},
+        { "predicate": {"custom_model_data": 102}, "model": "quarry:item/battery_charged"}
+	]
+}
