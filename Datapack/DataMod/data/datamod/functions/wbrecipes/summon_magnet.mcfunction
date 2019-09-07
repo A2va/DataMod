@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{Magnet:1,CustomModelData:50,HideFlags:61,display:{Lore:["{\"text\":\"Attract all the items around you.\",\"color\":\"gray\",\"italic\":false}"],Name:'{"text":"Magnet","color":"white","italic":false}'}}}}
