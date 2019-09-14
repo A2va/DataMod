@@ -16,21 +16,9 @@
     "background": "minecraft:textures/block/dragon_egg.png"
   },
   "criteria": {
-    "spawner": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:spawner",
-			"nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§bEmpty Spawner\\\"}\"}}"
-          }
-        ]
-      }
+    "impossible": {
+        "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "spawner"
-    ]
-  ]
+}
+  
 }
