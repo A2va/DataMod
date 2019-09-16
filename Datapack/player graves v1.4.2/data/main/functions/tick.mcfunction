@@ -2,7 +2,7 @@
 #
 # Called by: #minecraft:tick
 
-scoreboard players add #hc_tick hc_tick 1
+scoreboard players add #hc_tick hc_tick 61
 
 # Every tick
 function #main:tick

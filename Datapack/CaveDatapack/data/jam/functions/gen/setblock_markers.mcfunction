@@ -1,0 +1,19 @@
+setblock ~2 0 ~2 red_wool
+setblock ~18 0 ~2 red_wool
+setblock ~-18 0 ~2 red_wool
+setblock ~2 0 ~18 red_wool
+setblock ~2 0 ~-18 red_wool
+setblock ~18 0 ~18 red_wool
+setblock ~-18 0 ~18 red_wool
+setblock ~18 0 ~-18 red_wool
+setblock ~-18 0 ~-18 red_wool
+
+setblock ~2 1 ~2 bedrock
+setblock ~18 1 ~2 bedrock
+setblock ~-18 1 ~2 bedrock
+setblock ~2 1 ~18 bedrock
+setblock ~2 1 ~-18 bedrock
+setblock ~18 1 ~18 bedrock
+setblock ~-18 1 ~18 bedrock
+setblock ~18 1 ~-18 bedrock
+setblock ~-18 1 ~-18 bedrock

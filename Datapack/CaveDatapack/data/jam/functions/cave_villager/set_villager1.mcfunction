@@ -1,0 +1,2 @@
+execute as @e[tag=cave_villager,tag=unset1,nbt={VillagerData:{profession:"minecraft:weaponsmith"}}] run data merge entity @s {Offers:{Recipes:[{maxUses:16,buyB:{id:"minecraft:air",Count:1b},buy:{id:"minecraft:emerald",Count:3b},sell:{id:"minecraft:leather_helmet",Count:1b,tag:{display:{Name:"{\"text\":\"§fMiner Helmet\"}"},MinerHat:1b}},xp:2,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0,rewardExp:1b}]}}
+tag @e[tag=cave_villager,tag=unset1] remove unset1

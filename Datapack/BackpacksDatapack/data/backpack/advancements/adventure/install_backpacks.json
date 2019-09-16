@@ -23,5 +23,5 @@
 	"rewards": {
 		"function": "backpack:message"
 	},
-	"parent":"minecraft:adventure/root"
+	
 }

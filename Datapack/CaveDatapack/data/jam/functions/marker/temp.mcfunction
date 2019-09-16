@@ -1,0 +1,1 @@
+summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:-1,Tags:[temp]}

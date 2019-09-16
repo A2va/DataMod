@@ -1,0 +1,1 @@
+execute anchored eyes facing entity @e[sort=random,limit=1] feet run teleport @s ~ ~ ~ ~ ~
