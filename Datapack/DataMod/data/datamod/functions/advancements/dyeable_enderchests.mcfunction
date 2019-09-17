@@ -1,0 +1,1 @@
+recipe give @s tryashtar.ender_chests:chest_station
