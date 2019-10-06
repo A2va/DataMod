@@ -30,5 +30,5 @@
 	"rewards": {
 		"experience": 10
 	},
-	"parent":"backpack:adventure/install_backpacks"
+	"parent":"backpack:backpack/install_backpacks"
 }

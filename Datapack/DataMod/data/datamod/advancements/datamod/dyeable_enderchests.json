@@ -1,0 +1,78 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "DyeableEnderChest"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_diamond"
+        ],
+        [
+            "have_hopper"
+        ],
+        [
+            "have_ender_chest"
+        ],
+        [
+            "have_popped_chorus_fruit"
+        ]
+    ],
+    "rewards": {
+        "function": "datamod:advancements/dyeable_enderchests"
+    },
+    "criteria": {
+        "have_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        },
+        "have_hopper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper"
+                    }
+                ]
+            }
+        },
+        "have_ender_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_chest"
+                    }
+                ]
+            }
+        },
+        "have_popped_chorus_fruit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:popped_chorus_fruit"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod:datamod/collect_wood"
+}

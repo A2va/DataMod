@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Ender spawner"
+        },
+        "description": {
+            "text": "Infinite EnderPearl"
+        },
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_soul"
+        ]
+    ],
+    "criteria": {
+        "have_soul": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald",
+                        "nbt": "{mobtype:13s}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod:datamod/soul_shard"
+}

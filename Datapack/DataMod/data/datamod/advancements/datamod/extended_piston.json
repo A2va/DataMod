@@ -1,0 +1,49 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Extended Piston"
+        },
+        "description": {
+            "text": "Push more than 12 blocks"
+        },
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_dispenser"
+        ],
+        [
+            "have_rabitt_foot"
+        ]
+    ],
+    "criteria": {
+        "have_dispenser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dispenser"
+                    }
+                ]
+            }
+        },
+        "have_rabitt_foot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit_foot"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod:datamod/collect_wood"
+}

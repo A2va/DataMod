@@ -1,0 +1,144 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Bonsai Trees"
+        },
+        "description": {
+            "text": "Auto Farm Wood"
+        },
+        "icon": {
+            "item": "minecraft:hopper",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_diamond_axe"
+        ],
+        [
+            "have_hopper"
+        ],
+        [
+            "have_item_frame"
+        ],
+        [
+            "have_pots"
+        ],
+        [
+            "have_oak_sapling",
+            "have_spruce_sapling",
+            "have_acacia_sapling",
+            "have_jungle_sapling",
+            "have_dark_oak_sapling",
+            "have_birch_sapling"
+        ]
+    ],
+    "criteria": {
+        "have_diamond_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_axe"
+                    }
+                ]
+            }
+        },
+        "have_hopper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper"
+                    }
+                ]
+            }
+        },
+        "have_item_frame": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:item_frame"
+                    }
+                ]
+            }
+        },
+        "have_pots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flower_pot"
+                    }
+                ]
+            }
+        },
+        "have_oak_sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_sapling"
+                    }
+                ]
+            }
+        },
+        "have_spruce_sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_sapling"
+                    }
+                ]
+            }
+        },
+        "have_acacia_sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_sapling"
+                    }
+                ]
+            }
+        },
+        "have_jungle_sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_sapling"
+                    }
+                ]
+            }
+        },
+        "have_dark_oak_sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_sapling"
+                    }
+                ]
+            }
+        },
+        "have_birch_sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_sapling"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod_datapack:collect_wood"
+}

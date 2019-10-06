@@ -30,5 +30,5 @@
 	"rewards": {
 		"experience": 10
 	},
-	"parent":"backpack:adventure/backpack"
+	"parent":"backpack:backpack/backpack"
 }

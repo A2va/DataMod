@@ -1,0 +1,112 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Backpack"
+        },
+        "description": {
+            "text": "Extend your inventory"
+        },
+        "icon": {
+            "item": "minecraft:wooden_sword",
+            "nbt": "{CustomModelData:9161}",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_oak_slab",
+            "have_birch_slab",
+            "have_acacia_slab",
+            "have_spruce_slab",
+            "have_dark_oak_slab",
+            "have_jungle_slab"
+        ],
+        [
+            "have_stick"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "backpack:backpack_table"
+        ],
+        "function": "datamod:advancements/backpacks"
+    },
+    "criteria": {
+        "have_oak_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_slab"
+                    }
+                ]
+            }
+        },
+        "have_birch_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_slab"
+                    }
+                ]
+            }
+        },
+        "have_acacia_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_slab"
+                    }
+                ]
+            }
+        },
+        "have_spruce_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_slab"
+                    }
+                ]
+            }
+        },
+        "have_dark_oak_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_slab"
+                    }
+                ]
+            }
+        },
+        "have_jungle_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_slab"
+                    }
+                ]
+            }
+        },
+        "have_stick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod_datapack:collect_wood"
+}

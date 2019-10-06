@@ -1,0 +1,66 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Altar Soul Shard"
+        },
+        "description": {
+            "text": "Create a spawner!!"
+        },
+        "icon": {
+            "item": "minecraft:golden_sword",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_cauldron"
+        ],
+        [
+            "have_glowstone"
+        ],
+        [
+            "have_red_nether_bricks"
+        ]
+    ],
+    "rewards": {
+        "function": "datamod:advancements/soul_shard"
+    },
+    "criteria": {
+        "have_red_nether_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_nether_bricks"
+                    }
+                ]
+            }
+        },
+        "have_cauldron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cauldron"
+                    }
+                ]
+            }
+        },
+        "have_glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod_datapack:bonsai_tree"
+}

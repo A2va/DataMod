@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cave"
+        },
+        "description": {
+            "text": "The cave are different. No?"
+        },
+        "icon": {
+            "item": "minecraft:stone",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "enter_cave"
+        ]
+    ],
+    "criteria": {
+        "enter_cave": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cave_air"
+            }
+        }
+    },
+    "parent": "datamod_datapack:bonsai_tree"
+}

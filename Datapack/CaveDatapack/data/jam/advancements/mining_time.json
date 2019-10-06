@@ -50,7 +50,7 @@
     ],
     [
       "cave_neutre"
-    ],
-    "parent": "datamod:datamod/cave"
-  ]
+    ] 
+  ],
+  "parent": "datamod:datamod/cave"
 }

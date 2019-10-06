@@ -1,0 +1,63 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Extended Sticky Piston"
+        },
+        "description": {
+            "text": "Move entities and tile entities"
+        },
+        "icon": {
+            "item": "minecraft:sticky_piston",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "habe_dispenser"
+        ],
+        [
+            "have_rabitt_foot"
+        ],
+        [
+            "have_slime_ball"
+        ]
+    ],
+    "criteria": {
+        "habe_dispenser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dispenser"
+                    }
+                ]
+            }
+        },
+        "have_rabitt_foot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit_foot"
+                    }
+                ]
+            }
+        },
+        "have_slime_ball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod_datapack:extended_piston"
+}
