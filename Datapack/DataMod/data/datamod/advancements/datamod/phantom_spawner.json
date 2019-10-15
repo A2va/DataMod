@@ -31,12 +31,12 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:firework_rocket",
+                        "item": "minecraft:emerald",
                         "nbt": "{mobtype:29s}"
                     }
                 ]
             }
         }
     },
-    "parent": "datamod:datamod/soul_shard"
+    "parent": "datamod:datamod/altar_soul_shard"
 }

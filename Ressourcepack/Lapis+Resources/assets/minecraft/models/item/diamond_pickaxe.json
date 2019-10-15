@@ -22,6 +22,19 @@
 		{ "predicate": { "custom_model_data": 1132 }, "model": "tinkery:item/hammer/diamond/s"},
 		{ "predicate": { "custom_model_data": 1133 }, "model": "tinkery:item/hammer/diamond/ds"},
 		{ "predicate": { "custom_model_data": 1134 }, "model": "tinkery:item/hammer/diamond/ms"},
-		{ "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/diamond/dms"}
+        { "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/diamond/dms"},
+        { "predicate": {"custom_model_data": 3390001}, "model":"tekpack/cables/corner"},
+		{ "predicate": {"custom_model_data": 3390002}, "model":"tekpack/cables/middle"},
+		{ "predicate": {"custom_model_data": 3390003}, "model":"tekpack/cables/group1_straight"},
+		{ "predicate": {"custom_model_data": 3390004}, "model":"tekpack/cables/group1_end1"},
+		{ "predicate": {"custom_model_data": 3390005}, "model":"tekpack/cables/group1_end2"},
+		{ "predicate": {"custom_model_data": 3390006}, "model":"tekpack/cables/group1_cornerup1"},
+		{ "predicate": {"custom_model_data": 3390007}, "model":"tekpack/cables/group1_cornerup2"},
+		{ "predicate": {"custom_model_data": 3390008}, "model":"tekpack/cables/group1_t"},
+		{ "predicate": {"custom_model_data": 3390009}, "model":"tekpack/cables/group2_straight"},
+		{ "predicate": {"custom_model_data": 3390010}, "model":"tekpack/cables/group2_end1"},
+		{ "predicate": {"custom_model_data": 3390011}, "model":"tekpack/cables/group2_end2"},
+		{ "predicate": {"custom_model_data": 3390012}, "model":"tekpack/cables/group3"},
+		{ "predicate": {"custom_model_data": 3390013}, "model":"tekpack/cables/group3_end3"}
     ]
 }

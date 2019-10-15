@@ -11,6 +11,14 @@
 		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/hoe/stone/s"},
 		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/hoe/stone/ds"},
 		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/hoe/stone/ms"},
-		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/hoe/stone/dms"}
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/hoe/stone/dms"},
+		{ "predicate": {"custom_model_data": 3390001}, "model":"tekpack/passive/invisible"},
+		{ "predicate": {"custom_model_data": 3390002}, "model":"tekpack/passive/battery_gui"},
+		{ "predicate": {"custom_model_data": 3390003}, "model":"tekpack/passive/battery_1"},
+		{ "predicate": {"custom_model_data": 3390004}, "model":"tekpack/passive/battery_2"},
+		{ "predicate": {"custom_model_data": 3390005}, "model":"tekpack/passive/battery_3"},
+		{ "predicate": {"custom_model_data": 3390006}, "model":"tekpack/passive/battery_4"},
+		{ "predicate": {"custom_model_data": 3390007}, "model":"tekpack/passive/battery_5"},
+		{ "predicate": {"custom_model_data": 3390008}, "model":"tekpack/passive/crafting_gui"}
     ]
 }

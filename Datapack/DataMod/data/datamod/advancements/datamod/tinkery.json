@@ -23,7 +23,7 @@
         ]
     ],
     "rewards": {
-        "function": "datamod:advancement/tinkery"
+        "function": "datamod:advancements/tinkery"
     },
     "criteria": {
         "have_lapis_crafting_table": {

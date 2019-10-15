@@ -2,40 +2,32 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Beginning tekPack"
+            "text": "Hardened Metal Fan"
         },
         "description": {
-            "text": "First technology datapack"
+            "text": "A decorative block"
         },
         "icon": {
             "item": "minecraft:firework_rocket",
-            "nbt": "{CustomModelData:3390001}"
+            "nbt": "{CustomModelData:33900015}"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "requirements": [
-        [
-            "have_tekpack_crafting_table"
-        ]
-    ],
-    "rewards": {
-        "function": "datamod:advancements/tekpack"
-    },
     "criteria": {
-        "have_tekpack_crafting_table": {
+        "have_metal_fan": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "item": "minecraft:firework_rocket",
-                        "nbt": "{CustomModelData:3390001}"
+                        "nbt": "{CustomModelData:33900015}"
                     }
                 ]
             }
         }
     },
-    "parent": "datamod:datamod/enderman_spawner"
+    "parent": "tekpack:metal"
 }

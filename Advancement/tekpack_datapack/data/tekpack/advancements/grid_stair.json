@@ -2,40 +2,37 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Beginning tekPack"
+            "text": "Gridwalk Stairs"
         },
         "description": {
-            "text": "First technology datapack"
+            "text": "A decorative block"
         },
         "icon": {
             "item": "minecraft:firework_rocket",
-            "nbt": "{CustomModelData:3390001}"
+            "nbt": "{CustomModelData:33900012}"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "requirements": [
-        [
-            "have_tekpack_crafting_table"
-        ]
-    ],
-    "rewards": {
-        "function": "datamod:advancements/tekpack"
-    },
     "criteria": {
-        "have_tekpack_crafting_table": {
+        "have_grid_stair": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "item": "minecraft:firework_rocket",
-                        "nbt": "{CustomModelData:3390001}"
+                        "nbt": "{CustomModelData:33900012}"
                     }
                 ]
             }
         }
     },
-    "parent": "datamod:datamod/enderman_spawner"
+    "requirements": [
+        [
+            "have_grid_stair"
+        ]
+    ],
+    "parent": "tekpack:grid"
 }

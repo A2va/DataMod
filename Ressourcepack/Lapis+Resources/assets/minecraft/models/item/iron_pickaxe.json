@@ -19,6 +19,12 @@
 		{ "predicate": { "custom_model_data": 1132 }, "model": "tinkery:item/hammer/iron/s"},
 		{ "predicate": { "custom_model_data": 1133 }, "model": "tinkery:item/hammer/iron/ds"},
 		{ "predicate": { "custom_model_data": 1134 }, "model": "tinkery:item/hammer/iron/ms"},
-		{ "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/iron/dms"}
+        { "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/iron/dms"},
+        { "predicate": {"custom_model_data": 3390001}, "model":"tekpack/passive/furnace_gui_off"},
+		{ "predicate": {"custom_model_data": 3390002}, "model":"tekpack/passive/generator_gui"},
+		{ "predicate": {"custom_model_data": 3390003}, "model":"tekpack/interactive/belt_slope"},
+		{ "predicate": {"custom_model_data": 3390004}, "model":"tekpack/interactive/belt_curve_l"},
+		{ "predicate": {"custom_model_data": 3390005}, "model":"tekpack/interactive/belt_curve_r"},
+		{ "predicate": {"custom_model_data": 3390006}, "model":"tekpack/interactive/belt_t"}
     ]
 }
