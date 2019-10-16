@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Terminal"
+        },
+        "description": {
+            "text": "Access to all your items"
+        },
+        "icon": {
+            "item": "minecraft:squid_spawn_egg",
+            "nbt": "{CustomModelData:151}",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_terminal"
+        ]
+    ],
+    "criteria": {
+        "have_terminal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:squid_spawn_egg",
+                        "nbt": "{CustomModelData:151}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "datamod:storage_solutions/storage_solutions_root"
+}

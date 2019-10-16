@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Wireless Terminal"
+        },
+        "description": {
+            "text": "Wireless Terminal"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:150}",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_wireless_terminal"
+        ]
+    ],
+    "criteria": {
+        "have_wireless_terminal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:150}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "storage_solutions:terminal"
+}

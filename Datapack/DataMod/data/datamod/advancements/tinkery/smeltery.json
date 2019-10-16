@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Smeltery"
+        },
+        "description": {
+            "text": "Smelt your ore"
+        },
+        "icon": {
+            "item": "minecraft:squid_spawn_egg",
+            "nbt": "{CustomModelData:1002}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_smeltery"
+        ]
+    ],
+    "criteria": {
+        "have_smeltery": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:squid_spawn_egg",
+                        "nbt": "{CustomModelData:1002}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tinkery:tinkery_root"
+}

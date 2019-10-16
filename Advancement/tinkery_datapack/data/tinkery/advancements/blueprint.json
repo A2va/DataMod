@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Blueprint"
+        },
+        "description": {
+            "text": "Empty blueprint"
+        },
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:1000}",
+            "data": 0
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_blueprint"
+        ]
+    ],
+    "criteria": {
+        "have_blueprint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:1000}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tinkery:tinkery_root"
+}

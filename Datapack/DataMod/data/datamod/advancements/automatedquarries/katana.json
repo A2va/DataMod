@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Katana"
+        },
+        "description": {
+            "text": "A new sword"
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe",
+            "nbt": "{CustomModelData:101}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "have_katana": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_pickaxe",
+                        "nbt": "{CustomModelData:101}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "have_katana"
+        ]
+    ],
+    "parent": "datamod:automatedquarries/root"
+}

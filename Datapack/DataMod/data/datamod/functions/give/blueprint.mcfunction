@@ -1,0 +1,1 @@
+execute as @s at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:"{\"text\":\"Empty Blueprint\",\"italic\":false}"},CustomModelData:1000,BluePrint:{id:"empty",slots:[]}}}}

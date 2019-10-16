@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Modifier"
+        },
+        "description": {
+            "text": "Modifiy your item"
+        },
+        "icon": {
+            "item": "minecraft:squid_spawn_egg",
+            "nbt": "{CustomModelData:1000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_modifier"
+        ]
+    ],
+    "criteria": {
+        "have_modifier": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:squid_spawn_egg",
+                        "nbt": "{CustomModelData:1000}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tinkery:constructor"
+}

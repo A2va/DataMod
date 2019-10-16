@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Gem Cast"
+        },
+        "description": {
+            "text": "Gem Cast"
+        },
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:1104}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "have_cast_gem"
+        ]
+    ],
+    "criteria": {
+        "have_cast_gem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:1104}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tinkery:valve"
+}

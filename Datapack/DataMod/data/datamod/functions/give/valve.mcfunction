@@ -1,0 +1,1 @@
+execute as @s at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{Name:"{\"text\":\"Valve\",\"italic\":false}",color:0},CustomModelData:1000,Valve:1b}}}
