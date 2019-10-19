@@ -1,0 +1,1 @@
+loot give @s loot mechanization:gadgets/portable_battery

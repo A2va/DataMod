@@ -1,0 +1,94 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "mechanization:gadgets/dark_metal_solid",
+        "1": "mechanization:gadgets/red_dot"
+    },
+	"display": {
+		"gui": {
+            "rotation": [ 25, 135, 0 ],
+            "translation": [ -4, -8, 0 ],
+            "scale": [ 8.0, 8.0, 8.0 ]
+        },
+		"firstperson_righthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, -3, 5 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
+        },
+		"thirdperson_righthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, -4, 6 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
+        },
+		"ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, -12, 0 ],
+            "scale": [ 3.0, 3.0, 3.0 ]
+        },
+		"fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, -6, 9 ],
+            "scale": [ 5.0, 5.0, 5.0 ]
+        }
+	},
+    "elements": [
+        {
+            "name": "Sight 1",
+            "from": [ 7.3, 9.3, 9.0 ], 
+            "to": [ 8.7, 9.700000000000001, 10.4 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "Sight 2",
+            "from": [ 7.3, 9.7, 10.0 ], 
+            "to": [ 7.5, 10.299999999999999, 10.4 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "Sight 3",
+            "from": [ 8.5, 9.7, 10.0 ], 
+            "to": [ 8.7, 10.299999999999999, 10.4 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "Sight 4",
+            "from": [ 7.3, 10.3, 10.0 ], 
+            "to": [ 8.7, 10.5, 10.4 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 4.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Sight 5",
+            "from": [ 7.5, 9.7, 10.1 ], 
+            "to": [ 8.5, 10.299999999999999, 10.2 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 3.0, 15.0, 12.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 3.0, 15.0, 12.0 ] }
+            }
+        }
+    ]
+}

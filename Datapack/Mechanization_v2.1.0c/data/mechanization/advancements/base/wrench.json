@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.base.wrench.title",
+			"color":"gray"
+        },
+        "description": {
+            "translate": "mech.advancements.base.wrench.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6421100}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_wrench": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:1100}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:base\/machine_crafter"
+}

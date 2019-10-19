@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot mechanization:assembly/dye_machine

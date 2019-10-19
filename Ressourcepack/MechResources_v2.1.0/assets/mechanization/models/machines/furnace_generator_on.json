@@ -1,0 +1,6 @@
+{
+    "parent":"mechanization:machines/furnace_generator_off",
+    "textures": {
+        "5": "mechanization:machines/furnace_generator_on_panel"
+    }
+}

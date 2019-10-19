@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.nuclear.plutonium.title",
+			"color":"blue"
+        },
+        "description": {
+            "translate": "mech.advancements.nuclear.plutonium.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:6421440}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_battery_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:1440}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:nuclear/spent_fuel"
+}

@@ -1,0 +1,1 @@
+loot give @s loot mechanization:base/machine_upgrade

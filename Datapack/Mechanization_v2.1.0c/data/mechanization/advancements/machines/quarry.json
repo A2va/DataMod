@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.machines.quarry.title",
+			"color":"dark_red"
+        },
+        "description": {
+            "translate": "mech.advancements.machines.quarry.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:blast_furnace",
+            "nbt": "{CustomModelData:6422013}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_battery_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:2013}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:machines/alloy_furnace"
+}

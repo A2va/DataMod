@@ -9,7 +9,7 @@
         },
         "icon": {
             "item": "minecraft:firework_rocket",
-            "nbt": "{CustomModelData:33900010}"
+            "nbt": "{CustomModelData:3390010}"
         },
         "frame": "task",
         "show_toast": true,

@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_pickaxe"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 6424200 }, "model": "mechanization:gadgets/titanium_pickaxe" },
+		{ "predicate": { "custom_model_data": 6424521 }, "model": "mechanization:gadgets/crystal_pickaxe" }
+	]
+}

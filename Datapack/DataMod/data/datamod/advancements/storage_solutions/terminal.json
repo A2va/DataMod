@@ -9,8 +9,7 @@
         },
         "icon": {
             "item": "minecraft:squid_spawn_egg",
-            "nbt": "{CustomModelData:151}",
-            "data": 0
+            "nbt": "{CustomModelData:151}"
         },
         "frame": "task",
         "show_toast": true,

@@ -9,8 +9,7 @@
         },
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:150}",
-            "data": 0
+            "nbt": "{CustomModelData:150}"
         },
         "frame": "task",
         "show_toast": true,

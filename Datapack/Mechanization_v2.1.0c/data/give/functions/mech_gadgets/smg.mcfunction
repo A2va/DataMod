@@ -1,0 +1,1 @@
+loot give @s loot mechanization:gadgets/plasma_sub_machine_gun

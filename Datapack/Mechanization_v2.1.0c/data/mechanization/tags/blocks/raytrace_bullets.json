@@ -1,0 +1,22 @@
+{
+	"values":[
+		"#du:air",
+		"#du:colors/glass",
+		"#du:flowers",
+		"#du:pressure_plates",
+		"#minecraft:saplings",
+		"#minecraft:signs",
+		"#minecraft:buttons",
+		"minecraft:tall_grass",
+		"minecraft:brown_mushroom",
+		"minecraft:red_mushroom",
+		"minecraft:torch",
+		"minecraft:end_rod",
+		"minecraft:ladder",
+		"minecraft:snow",
+		"minecraft:redstone_wire",
+		"minecraft:repeater",
+		"minecraft:comparator",
+		"minecraft:water"
+	]
+}

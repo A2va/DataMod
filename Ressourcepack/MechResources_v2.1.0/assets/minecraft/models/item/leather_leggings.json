@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/leather_leggings",
+		"layer1": "item/leather_leggings_overlay"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 6424207 }, "model": "mechanization:gadgets/titanium_leggings" },
+		{ "predicate": { "custom_model_data": 6424502 }, "model": "mechanization:gadgets/copper_leggings" },
+		{ "predicate": { "custom_model_data": 6424506 }, "model": "mechanization:gadgets/tin_leggings" },
+		{ "predicate": { "custom_model_data": 6424510 }, "model": "mechanization:gadgets/steel_leggings" },
+		{ "predicate": { "custom_model_data": 6424514 }, "model": "mechanization:gadgets/structural_leggings" }
+	]
+}

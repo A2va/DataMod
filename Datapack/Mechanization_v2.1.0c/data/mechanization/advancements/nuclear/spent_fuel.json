@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.nuclear.spent_fuel.title",
+			"color":"blue"
+        },
+        "description": {
+            "translate": "mech.advancements.nuclear.spent_fuel.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:6423102}"
+        },
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "have_battery_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:3102}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:nuclear\/fission_reactor"
+}

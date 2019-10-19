@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.base.machine_upgrade.title",
+			"color":"dark_red"
+        },
+        "description": {
+            "translate": "mech.advancements.base.machine_upgrade.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6421102}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_wrench": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:1102}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:base/machine_frame_2"
+}

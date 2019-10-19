@@ -1,0 +1,7 @@
+{
+    "parent":"mechanization:base/resources/tier_1_machine_frame",
+    "textures": {
+        "0": "mechanization:base/2_plate_panel",
+        "1": "mechanization:base/2_ring"
+    }
+}

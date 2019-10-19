@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+		"layer0": "mechanization:gadgets/tool/tin_chestplate",
+        "layer1": "mechanization:gadgets/tool/tin_chestplate"
+    }
+}

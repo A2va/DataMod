@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/leather_helmet",
+		"layer1": "item/leather_helmet_overlay"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 6424205 }, "model": "mechanization:gadgets/titanium_helmet" },
+		{ "predicate": { "custom_model_data": 6424500 }, "model": "mechanization:gadgets/copper_helmet" },
+		{ "predicate": { "custom_model_data": 6424504 }, "model": "mechanization:gadgets/tin_helmet" },
+		{ "predicate": { "custom_model_data": 6424508 }, "model": "mechanization:gadgets/steel_helmet" },
+		{ "predicate": { "custom_model_data": 6424512 }, "model": "mechanization:gadgets/structural_helmet" }
+	]
+}

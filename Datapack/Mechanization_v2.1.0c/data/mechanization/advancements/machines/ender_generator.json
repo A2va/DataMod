@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.machines.ender_generator.title",
+			"color":"dark_purple"
+        },
+        "description": {
+            "translate": "mech.advancements.machines.ender_generator.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:blast_furnace",
+            "nbt": "{CustomModelData:6422015}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_battery_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:2015}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:machines/auto_farm"
+}

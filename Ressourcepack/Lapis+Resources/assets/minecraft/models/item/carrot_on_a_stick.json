@@ -22,6 +22,7 @@
         { "predicate": {"custom_model_data": 51},  "model": "jam:mega_torch"},
         { "predicate": {"custom_model_data": 52},  "model": "jam:teleport_mine"},
         { "predicate": {"custom_model_data": 53},  "model": "jam:void_stone"},
+        { "predicate": {"custom_model_data": 55},  "model": "jam:angel_ring"},
         { "predicate": {"custom_model_data": 150}, "model": "storage:item/wireless"}
 	]
 }

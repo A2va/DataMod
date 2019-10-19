@@ -1,0 +1,6 @@
+{
+	"parent":"mechanization:base/spawner_model",
+    "textures": {
+        "0": "mechanization:base/resources/uranium_block"
+    }
+}

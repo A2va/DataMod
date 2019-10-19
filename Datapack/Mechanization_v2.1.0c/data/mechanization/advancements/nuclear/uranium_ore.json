@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.nuclear.uranium_ore.title",
+			"color":"dark_green"
+        },
+        "description": {
+            "translate": "mech.advancements.nuclear.uranium_ore.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:blast_furnace",
+            "nbt": "{CustomModelData:6421430}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_uranium_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:1430}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:mechanization"
+}

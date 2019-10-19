@@ -1,0 +1,1 @@
+loot give @s loot mechanization:nuclear/spent_fuel_cell

@@ -1,0 +1,13 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"parent":"mechanization:base/battery_t1_2",
+    "textures": {
+        "0": "mechanization:base/q_plate_panel",
+        "1": "mechanization:base/q_battery_side",
+        "2": "mechanization:base/q_ring",
+        "3": "mechanization:base/q_smooth_panel",
+        "4": "block/lime_concrete",
+        "5": "block/red_concrete",
+        "6": "block/black_stained_glass"
+    }
+}

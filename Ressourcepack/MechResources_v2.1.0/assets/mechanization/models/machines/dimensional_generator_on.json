@@ -1,0 +1,6 @@
+{
+    "parent":"mechanization:machines/dimensional_generator_off",
+    "textures": {
+        "0": "mechanization:machines/electric_furnace_on_panel"
+    }
+}

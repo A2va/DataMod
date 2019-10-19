@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/leather_chestplate",
+		"layer1": "item/leather_chestplate_overlay"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 6424206 }, "model": "mechanization:gadgets/titanium_chestplate" },
+		{ "predicate": { "custom_model_data": 6424501 }, "model": "mechanization:gadgets/copper_chestplate" },
+		{ "predicate": { "custom_model_data": 6424505 }, "model": "mechanization:gadgets/tin_chestplate" },
+		{ "predicate": { "custom_model_data": 6424509 }, "model": "mechanization:gadgets/steel_chestplate" },
+		{ "predicate": { "custom_model_data": 6424513 }, "model": "mechanization:gadgets/structural_chestplate" }
+	]
+}

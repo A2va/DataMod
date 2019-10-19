@@ -1,0 +1,8 @@
+{
+	"values":[
+		"mechanization:machines/tools/wrench_break",
+		"mechanization:nuclear/tools/wrench_break",
+		"mechanization:gadgets/tools/wrench_break",
+		"mechanization:assembly/tools/wrench_break"
+	]
+}

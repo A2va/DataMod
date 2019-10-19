@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "mechanization:gadgets/tool/crystal_pickaxe"
+    }
+}

@@ -29,5 +29,5 @@
             }
         }
     },
-    "parent": "tinkery:valve"
+    "parent": "datamod:tinkery/valve"
 }

@@ -1,0 +1,35 @@
+{
+    "parent":"mechanization:base/model_block",
+    "textures": {
+        "0": "block/glass",
+        "1": "mechanization:gadgets/xp_tank_top",
+        "2": "mechanization:gadgets/xp_liquid"
+    },
+    "elements": [
+        {
+            "name": "Top",
+            "from": [ -0.01, 15.01, -0.01 ], 
+            "to": [ 16.02, 16.02, 16.02 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "inside",
+            "from": [ 0.01, 0.01, 0.01 ], 
+            "to": [ 15.99, 6.0, 15.99 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 16, 6.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 16, 6.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16, 6.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 16, 6.0 ] },
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 16, 16 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 16, 16 ] }
+            }
+        }
+    ]
+}

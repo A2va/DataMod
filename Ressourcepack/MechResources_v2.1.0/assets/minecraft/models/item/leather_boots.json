@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/leather_boots",
+		"layer1": "item/leather_boots_overlay"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 6424207 }, "model": "mechanization:gadgets/titanium_boots" },
+		{ "predicate": { "custom_model_data": 6424503 }, "model": "mechanization:gadgets/copper_boots" },
+		{ "predicate": { "custom_model_data": 6424507 }, "model": "mechanization:gadgets/tin_boots" },
+		{ "predicate": { "custom_model_data": 6424511 }, "model": "mechanization:gadgets/steel_boots" },
+		{ "predicate": { "custom_model_data": 6424515 }, "model": "mechanization:gadgets/structural_boots" }
+	]
+}

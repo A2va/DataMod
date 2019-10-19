@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "mech.advancements.nuclear.temp_observer.title",
+			"color":"dark_red"
+        },
+        "description": {
+            "translate": "mech.advancements.nuclear.temp_observer.description",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:blast_furnace",
+            "nbt": "{CustomModelData:6423005}"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "have_battery_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "nbt": "{mech_itemid:3005}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "mechanization:nuclear/control_rod"
+}

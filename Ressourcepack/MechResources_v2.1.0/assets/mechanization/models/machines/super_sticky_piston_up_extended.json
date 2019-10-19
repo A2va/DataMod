@@ -1,0 +1,13 @@
+{
+    "parent":"mechanization:machines/super_piston_extended",
+    "textures": {
+        "2": "block/piston_top_sticky"
+    },
+	"display": {
+         "head": {
+            "rotation": [ 270, 0, 0 ],
+            "translation": [ 0, -43.22, 0 ],
+            "scale": [ 1.601, 1.601, 1.601 ]
+        }
+	}
+}

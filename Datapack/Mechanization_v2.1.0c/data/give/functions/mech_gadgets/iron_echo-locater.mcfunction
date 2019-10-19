@@ -1,0 +1,1 @@
+loot give @s loot mechanization:gadgets/iron_echo-locator
