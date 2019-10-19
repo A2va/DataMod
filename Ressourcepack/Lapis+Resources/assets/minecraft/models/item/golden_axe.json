@@ -19,6 +19,7 @@
 		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/axe/gold/sz"},
 		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/axe/gold/dsz"},
 		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/axe/gold/msz"},
-		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/gold/dmsz"}
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/gold/dmsz"},
+		{ "predicate": { "custom_model_data": 6424518 }, "model": "mechanization:gadgets/conductive_axe"}
     ]
 }

@@ -11,6 +11,7 @@
 		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/shovel/gold/s"},
 		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/shovel/gold/ds"},
 		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/shovel/gold/ms"},
-		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/shovel/gold/dms"}
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/shovel/gold/dms"},
+		{ "predicate": { "custom_model_data": 6424519 }, "model": "mechanization:gadgets/conductive_shovel" }
     ]
 }

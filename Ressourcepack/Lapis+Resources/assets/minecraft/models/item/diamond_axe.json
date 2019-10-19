@@ -20,6 +20,8 @@
 		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/axe/diamond/sz"},
 		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/axe/diamond/dsz"},
 		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/axe/diamond/msz"},
-		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/diamond/dmsz"}
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/axe/diamond/dmsz"},
+		{ "predicate": { "custom_model_data": 6424201 }, "model": "mechanization:gadgets/titanium_axe" },
+		{ "predicate": { "custom_model_data": 6424522 }, "model": "mechanization:gadgets/crystal_axe" }
     ]
 }

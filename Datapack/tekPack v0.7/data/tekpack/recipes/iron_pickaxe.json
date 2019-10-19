@@ -1,9 +1,0 @@
-{
-  "type": "smelting",
-  "ingredient": {
-    "item": "minecraft:iron_pickaxe"
-  },
-  "result": "minecraft:iron_pickaxe",
-  "experience": 0,
-  "cookingtime": 200
-}

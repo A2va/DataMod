@@ -23,6 +23,44 @@
         { "predicate": {"custom_model_data": 52},  "model": "jam:teleport_mine"},
         { "predicate": {"custom_model_data": 53},  "model": "jam:void_stone"},
         { "predicate": {"custom_model_data": 55},  "model": "jam:angel_ring"},
-        { "predicate": {"custom_model_data": 150}, "model": "storage:item/wireless"}
+        { "predicate": {"custom_model_data": 150}, "model": "storage:item/wireless"},
+        { "predicate": { "custom_model_data": 6421100 }, "model": "mechanization:base/wrench" },
+		{ "predicate": { "custom_model_data": 6421101 }, "model": "mechanization:base/multimeter" },
+		{ "predicate": { "custom_model_data": 6421102 }, "model": "mechanization:base/machine_upgrade" },
+		{ "predicate": { "custom_model_data": 6421103 }, "model": "mechanization:base/nether_upgrade" },
+		{ "predicate": { "custom_model_data": 6421104 }, "model": "mechanization:base/ender_upgrade" },
+		
+		
+		{ "predicate": { "custom_model_data": 6422019 }, "model": "mechanization:machines/spawner_controller" },
+		{ "predicate": { "custom_model_data": 6422200 }, "model": "mechanization:machines/spawner_mover" },
+		{ "predicate": { "custom_model_data": 6422201 }, "model": "mechanization:machines/spawner_mover_used" },
+		
+		
+		
+		{ "predicate": { "custom_model_data": 6424100 }, "model": "mechanization:gadgets/iron_echo-locater" },
+		{ "predicate": { "custom_model_data": 6424101 }, "model": "mechanization:gadgets/diamond_echo-locater" },
+		{ "predicate": { "custom_model_data": 6424102 }, "model": "mechanization:gadgets/smg" },
+		{ "predicate": { "custom_model_data": 6424103 }, "model": "mechanization:gadgets/rifle" },
+		{ "predicate": { "custom_model_data": 6424104 }, "model": "mechanization:gadgets/pistol" },
+		{ "predicate": { "custom_model_data": 6424105 }, "model": "mechanization:gadgets/sniper_scope" },
+		
+		{ "predicate": { "custom_model_data": 6424209 }, "model": "mechanization:gadgets/portable_battery_0" },
+		{ "predicate": { "custom_model_data": 6424210 }, "model": "mechanization:gadgets/portable_battery_1" },
+		{ "predicate": { "custom_model_data": 6424211 }, "model": "mechanization:gadgets/portable_battery_2" },
+		{ "predicate": { "custom_model_data": 6424212 }, "model": "mechanization:gadgets/portable_battery_3" },
+		{ "predicate": { "custom_model_data": 6424213 }, "model": "mechanization:gadgets/portable_battery_4" },
+		{ "predicate": { "custom_model_data": 6424214 }, "model": "mechanization:gadgets/portable_battery_5" },
+		{ "predicate": { "custom_model_data": 6424215 }, "model": "mechanization:gadgets/portable_battery_6" },
+		{ "predicate": { "custom_model_data": 6424216 }, "model": "mechanization:gadgets/portable_battery_7" },
+		{ "predicate": { "custom_model_data": 6424217 }, "model": "mechanization:gadgets/portable_battery_8" },
+		
+		
+		
+		{ "predicate": { "custom_model_data": 6425100 }, "model": "mechanization:assembly/item_filter" },
+		{ "predicate": { "custom_model_data": 6425101 }, "model": "mechanization:assembly/disc_end_of_the_world" },
+		{ "predicate": { "custom_model_data": 6425102 }, "model": "mechanization:assembly/disc_hyperspace" },
+		{ "predicate": { "custom_model_data": 6425103 }, "model": "mechanization:assembly/disc_money_for_nothing" },
+		{ "predicate": { "custom_model_data": 6425104 }, "model": "mechanization:assembly/disc_wanderer" },
+		{ "predicate": { "custom_model_data": 6425105 }, "model": "mechanization:assembly/disc_stranger_think" }
 	]
 }

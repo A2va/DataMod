@@ -19,6 +19,7 @@
 		{ "predicate": { "custom_model_data": 1132 }, "model": "tinkery:item/hammer/gold/s"},
 		{ "predicate": { "custom_model_data": 1133 }, "model": "tinkery:item/hammer/gold/ds"},
 		{ "predicate": { "custom_model_data": 1134 }, "model": "tinkery:item/hammer/gold/ms"},
-		{ "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/gold/dms"}
+        { "predicate": { "custom_model_data": 1135 }, "model": "tinkery:item/hammer/gold/dms"},
+        { "predicate": { "custom_model_data": 6424517 }, "model": "mechanization:gadgets/conductive_pickaxe" }
     ]
 }

@@ -12,6 +12,8 @@
 		{ "predicate": { "custom_model_data": 1004 }, "model": "tinkery:item/shovel/diamond/s"},
 		{ "predicate": { "custom_model_data": 1005 }, "model": "tinkery:item/shovel/diamond/ds"},
 		{ "predicate": { "custom_model_data": 1006 }, "model": "tinkery:item/shovel/diamond/ms"},
-		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/shovel/diamond/dms"}
+		{ "predicate": { "custom_model_data": 1007 }, "model": "tinkery:item/shovel/diamond/dms"},
+		{ "predicate": { "custom_model_data": 6424202 }, "model": "mechanization:gadgets/titanium_shovel" },
+		{ "predicate": { "custom_model_data": 6424523 }, "model": "mechanization:gadgets/crystal_shovel" }
     ]
 }

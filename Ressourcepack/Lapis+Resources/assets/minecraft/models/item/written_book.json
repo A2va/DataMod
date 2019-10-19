@@ -15,6 +15,6 @@
         { "predicate": {"custom_model_data": 108}, "model": "lapis:item/book/book_white"},
         { "predicate": {"custom_model_data": 109}, "model": "lapis:item/book/book_dark_purple"},
         { "predicate": {"custom_model_data": 110}, "model": "lapis:item/book/book_pink"},
-        { "predicate": {"custom_model_data": 3390001}, "model":"tekpack/interactive/tekbook"}
+        { "predicate": { "custom_model_data": 6421105 }, "model": "mechanization:base/manual" }
     ]
 }

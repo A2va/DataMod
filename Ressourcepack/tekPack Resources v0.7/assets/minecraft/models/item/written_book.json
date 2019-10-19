@@ -1,9 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/written_book"
-	},
-	"overrides": [
-		{ "predicate": {"custom_model_data": 3390001}, "model":"tekpack/interactive/tekbook"}
-	]
-}

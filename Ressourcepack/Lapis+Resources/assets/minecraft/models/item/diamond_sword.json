@@ -22,6 +22,9 @@
 		{ "predicate": { "custom_model_data": 1012 }, "model": "tinkery:item/sword/diamond/sz"},
 		{ "predicate": { "custom_model_data": 1013 }, "model": "tinkery:item/sword/diamond/dsz"},
 		{ "predicate": { "custom_model_data": 1014 }, "model": "tinkery:item/sword/diamond/msz"},
-		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/sword/diamond/dmsz"}
+		{ "predicate": { "custom_model_data": 1015 }, "model": "tinkery:item/sword/diamond/dmsz"},
+		{ "predicate": { "custom_model_data": 6424203 }, "model": "mechanization:gadgets/titanium_sword" },
+		{ "predicate": { "custom_model_data": 6424516 }, "model": "mechanization:gadgets/conductive_sword" },
+		{ "predicate": { "custom_model_data": 6424520 }, "model": "mechanization:gadgets/crystal_sword" }
     ]
 }
