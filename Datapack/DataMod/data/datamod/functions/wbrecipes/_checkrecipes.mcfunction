@@ -6,3 +6,4 @@
 scoreboard players set #system WorkbenchCount 0
 #Magnet
 execute as @s if score #system WorkbenchCount matches 0 run function datamod:wbrecipes/magnet_test
+execute as @s if score #system WorkbenchCount matches 0 run function datamod:wbrecipes/angel_ring_test

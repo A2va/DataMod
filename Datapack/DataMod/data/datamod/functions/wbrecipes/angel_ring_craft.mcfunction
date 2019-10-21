@@ -34,4 +34,4 @@ execute store result score #clear WorkbenchCount run data get block ~ ~0.5 ~ Ite
 scoreboard players remove #clear WorkbenchCount 1
 execute store result block ~ ~0.5 ~ Items[{Slot:8b}].Count byte 1 run scoreboard players get #clear WorkbenchCount
 
-execute at @s positioned ~ ~1 ~ run function datamod:wbrecipes/summon_magnet
+execute at @s positioned ~ ~1 ~ run function datamod:wbrecipes/summon_angel_ring

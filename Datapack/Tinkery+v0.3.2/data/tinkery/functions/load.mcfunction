@@ -74,4 +74,4 @@ scoreboard objectives add t_s_debug dummy
 scoreboard players set #tinker pack_loaded 1
 function tinkery:setmats
 
-tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v0.3","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
+#tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v0.3","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

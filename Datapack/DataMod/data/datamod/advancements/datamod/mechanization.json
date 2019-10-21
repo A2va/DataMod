@@ -8,8 +8,8 @@
             "text": "First technology datapack"
         },
         "icon": {
-            "item": "minecraft:firework_rocket",
-            "nbt": "{CustomModelData:3390001}"
+            "item": "minecraft:blast_furnace",
+            "nbt": "{CustomModelData:6421037}"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,20 +22,19 @@
         ]
     ],
     "rewards": {
-        "function": "datamod:advancements/tekpack"
+        "function": "datamod:advancements/mechanization"
     },
     "criteria": {
-        "have_tekpack_crafting_table": {
+        "have_technical_crafting_table": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:firework_rocket",
-                        "nbt": "{CustomModelData:3390001}"
+                        "nbt": "{mech_itemid:1005}"
                     }
                 ]
             }
         }
     },
-    "parent": "datamod:datamod/enderman_spawner"
+    "parent": "datamod:datamod/soul_shard"
 }

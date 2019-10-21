@@ -38,5 +38,5 @@
             }
         }
     },
-    "parent": "datamod:datamod/altar_soul_shard"
+    "parent": "datamod:datamod/soul_shard"
 }

@@ -46,7 +46,7 @@ gamerule sendCommandFeedback false
 gamerule maxCommandChainLength 1000000
 
 #Messages
-tellraw @a ["",{"text":"Reload Complete!"}]
+#tellraw @a ["",{"text":"Reload Complete!"}]
 scoreboard players set #Timer Message_Timer 0
 
 #Spawn
