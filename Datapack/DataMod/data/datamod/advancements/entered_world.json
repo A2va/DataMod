@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "tryashtar.ender_chests:.meta/on_entered_world"
+    "function": "datamod:give_book"
   }
 }

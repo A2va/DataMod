@@ -19,7 +19,7 @@
     },
     "criteria": {
         "always": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:tick"
         }
     }
 }
